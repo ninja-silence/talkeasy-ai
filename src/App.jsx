@@ -1,23 +1,18 @@
-import Header from './components/Header'
-import ProblemSection from './components/ProblemSection'
-import SolutionSection from './components/SolutionSection'
-import FeaturesSection from './components/FeaturesSection'
-import ValuesSection from './components/ValuesSection'
-import CTASection from './components/CTASection'
-import Footer from './components/Footer'
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
+import Home from './pages/Home'
+import About from './pages/About'
+import Solution from './pages/Solution'
+import Contact from './pages/Contact'
 
 export default function App() {
   return (
-    <>
-      <Header />
-      <main>
-        <ProblemSection />
-        <SolutionSection />
-        <FeaturesSection />
-        <ValuesSection />
-        <CTASection />
-      </main>
-      <Footer />
-    </>
+    <Router>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/solution" element={<Solution />} />
+        <Route path="/contact" element={<Contact />} />
+      </Routes>
+    </Router>
   )
 }
