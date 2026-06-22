@@ -1,9 +1,5 @@
 import Header from '../components/Header'
-import ProblemSection from '../components/ProblemSection'
-import SolutionSection from '../components/SolutionSection'
-import FeaturesSection from '../components/FeaturesSection'
-import ValuesSection from '../components/ValuesSection'
-import CTASection from '../components/CTASection'
+import HeroSection from '../components/HeroSection'
 import Footer from '../components/Footer'
 
 export default function Home() {
@@ -11,11 +7,7 @@ export default function Home() {
     <>
       <Header />
       <main>
-        <ProblemSection />
-        <SolutionSection />
-        <FeaturesSection />
-        <ValuesSection />
-        <CTASection />
+        <HeroSection />
       </main>
       <Footer />
     </>
