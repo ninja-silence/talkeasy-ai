@@ -1,0 +1,10 @@
+.solution-section {
+  padding: 80px 0;
+  background-color: white;
+}
+
+.solution-content {
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
