@@ -28,24 +28,6 @@ export default function TeamSection() {
             </div>
           </div>
         </div>
-
-        <div>
-          <h3 className="text-sm font-mono font-bold uppercase text-teal tracking-widest mb-6">Hiring plan</h3>
-          <div className="grid md:grid-cols-3 gap-4">
-            <div className="bg-white border border-cream rounded-lg p-4">
-              <h4 className="font-heading font-bold text-teal mb-2">Speech / NLP engineer</h4>
-              <p className="text-sm text-teal">On-device ASR and LLM fine-tuning for atypical speech (elderly, dysarthric, non-native).</p>
-            </div>
-            <div className="bg-white border border-cream rounded-lg p-4">
-              <h4 className="font-heading font-bold text-teal mb-2">Community manager</h4>
-              <p className="text-sm text-teal">Open-source stewardship, contributor relations, and user community building.</p>
-            </div>
-            <div className="bg-white border border-cream rounded-lg p-4">
-              <h4 className="font-heading font-bold text-teal mb-2">Partnerships lead</h4>
-              <p className="text-sm text-teal">Institutional B2B outreach, care center relationships, and grant applications.</p>
-            </div>
-          </div>
-        </div>
       </div>
     </section>
   )

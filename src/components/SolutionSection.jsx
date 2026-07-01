@@ -51,59 +51,6 @@ export default function SolutionSection() {
             </div>
           </div>
 
-          {/* Right Column */}
-          <div>
-            <h3 className="text-sm font-mono font-bold uppercase text-teal tracking-widest mb-6">Why now — the technical window (2025–2026)</h3>
-            <p className="text-sm text-teal mb-6">For the first time, the entire Talkeasy voice pipeline fits under 1GB on a sub-€100 Android device.</p>
-
-            <div className="space-y-3 mb-6">
-              <div className="bg-white border border-cream rounded-lg p-4 flex gap-4">
-                <div className="font-mono font-bold text-xs text-coral bg-peach bg-opacity-50 px-3 py-1 rounded h-fit">ASR</div>
-                <div className="flex-1">
-                  <h4 className="font-heading font-bold text-teal">Whisper tiny Q4</h4>
-                  <p className="text-sm text-teal">~250MB RAM · MIT license · on-device speech recognition</p>
-                </div>
-              </div>
-              <div className="bg-white border border-cream rounded-lg p-4 flex gap-4">
-                <div className="font-mono font-bold text-xs text-coral bg-peach bg-opacity-50 px-3 py-1 rounded h-fit">LLM</div>
-                <div className="flex-1">
-                  <h4 className="font-heading font-bold text-teal">TinyLlama 1.1B Q4</h4>
-                  <p className="text-sm text-teal">~700MB RAM · first sub-1GB on-device LLM viable on entry-level Android</p>
-                </div>
-              </div>
-              <div className="bg-white border border-cream rounded-lg p-4 flex gap-4">
-                <div className="font-mono font-bold text-xs text-coral bg-peach bg-opacity-50 px-3 py-1 rounded h-fit">TTS</div>
-                <div className="flex-1">
-                  <h4 className="font-heading font-bold text-teal">Piper TTS</h4>
-                  <p className="text-sm text-teal">40MB · 1,100+ languages · natural offline speech synthesis, MIT license</p>
-                </div>
-              </div>
-            </div>
-
-            <div className="bg-peach bg-opacity-30 border border-peach rounded-lg p-4 mb-6">
-              <p className="text-xs text-teal font-mono mb-2">Combined pipeline</p>
-              <p className="text-3xl font-heading font-bold text-teal mb-2">~800 MB total</p>
-              <p className="text-sm text-teal">Fits under 1GB for the first time in 2025 — enabling a complete voice AI experience on devices owned by the populations Talkeasy serves.</p>
-            </div>
-
-            <div>
-              <h3 className="text-sm font-mono font-bold uppercase text-teal tracking-widest mb-4">Regulatory window</h3>
-              <ul className="space-y-2 text-sm text-teal">
-                <li className="flex gap-3">
-                  <span className="text-coral font-bold flex-shrink-0">—</span>
-                  <span>EU Accessibility Act (June 2025) mandates accessible digital products across member states</span>
-                </li>
-                <li className="flex gap-3">
-                  <span className="text-coral font-bold flex-shrink-0">—</span>
-                  <span>Germany's adult day care software market: USD 1.08B in 2024 — institutions already buying</span>
-                </li>
-                <li className="flex gap-3">
-                  <span className="text-coral font-bold flex-shrink-0">—</span>
-                  <span>NGI Zero Commons Fund deadline: June 1, 2026</span>
-                </li>
-              </ul>
-            </div>
-          </div>
         </div>
       </div>
     </section>

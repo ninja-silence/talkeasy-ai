@@ -16,30 +16,24 @@ export default function Header() {
 
           {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center gap-8">
-            <a href="#problem" className="text-teal hover:text-coral transition text-sm font-medium">
-              Problem
-            </a>
-            <a href="#product" className="text-teal hover:text-coral transition text-sm font-medium">
-              Product
-            </a>
-            <a href="#market" className="text-teal hover:text-coral transition text-sm font-medium">
-              Market
-            </a>
-            <a href="#model" className="text-teal hover:text-coral transition text-sm font-medium">
-              Model
-            </a>
-            <a href="#roadmap" className="text-teal hover:text-coral transition text-sm font-medium">
+            <Link to="/solution" className="text-teal hover:text-coral transition text-sm font-medium">
+              Solution
+            </Link>
+            <Link to="/about" className="text-teal hover:text-coral transition text-sm font-medium">
+              About
+            </Link>
+            <Link to="/roadmap" className="text-teal hover:text-coral transition text-sm font-medium">
               Roadmap
-            </a>
-            <a href="#team" className="text-teal hover:text-coral transition text-sm font-medium">
-              Team
-            </a>
+            </Link>
+            <Link to="/contact" className="text-teal hover:text-coral transition text-sm font-medium">
+              Contact
+            </Link>
           </nav>
 
           {/* CTA Button */}
-          <button className="bg-coral hover:bg-coral-dark text-white px-6 py-2 rounded-lg font-medium text-sm transition">
+          {/* <button className="bg-coral hover:bg-coral-dark text-white px-6 py-2 rounded-lg font-medium text-sm transition">
             Get Early Access
-          </button>
+          </button> */}
 
           {/* Mobile Menu Button */}
           <button
@@ -55,24 +49,18 @@ export default function Header() {
         {/* Mobile Menu */}
         {isOpen && (
           <nav className="md:hidden pb-4 flex flex-col gap-2">
-            <a href="#problem" className="text-teal hover:text-coral py-2 text-sm font-medium">
-              Problem
-            </a>
-            <a href="#product" className="text-teal hover:text-coral py-2 text-sm font-medium">
-              Product
-            </a>
-            <a href="#market" className="text-teal hover:text-coral py-2 text-sm font-medium">
-              Market
-            </a>
-            <a href="#model" className="text-teal hover:text-coral py-2 text-sm font-medium">
-              Model
-            </a>
-            <a href="#roadmap" className="text-teal hover:text-coral py-2 text-sm font-medium">
+            <Link to="/solution" className="text-teal hover:text-coral py-2 text-sm font-medium">
+              Solution
+            </Link>
+            <Link to="/about" className="text-teal hover:text-coral py-2 text-sm font-medium">
+              About
+            </Link>
+            <Link to="/roadmap" className="text-teal hover:text-coral py-2 text-sm font-medium">
               Roadmap
-            </a>
-            <a href="#team" className="text-teal hover:text-coral py-2 text-sm font-medium">
-              Team
-            </a>
+            </Link>
+            <Link to="/contact" className="text-teal hover:text-coral py-2 text-sm font-medium">
+              Contact
+            </Link>
           </nav>
         )}
       </div>
