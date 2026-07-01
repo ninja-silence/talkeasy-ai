@@ -10,9 +10,7 @@ export default function Header() {
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
           <Link to="/" className="flex items-center gap-2">
-            <div className="w-8 h-8 bg-gradient-to-br from-coral to-orange rounded-lg flex items-center justify-center">
-              <span className="text-white font-bold text-sm">TE</span>
-            </div>
+            <img src="/images/pwa_export.png" alt="Talkeasy" className="h-8 w-8" />
             <span className="font-bold text-lg text-teal hidden sm:inline">Talkeasy</span>
           </Link>
 

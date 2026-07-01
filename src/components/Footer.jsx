@@ -10,11 +10,8 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-5 gap-8 mb-8">
           {/* Brand Section */}
           <div className="md:col-span-1">
-            <Link to="/" className="flex items-center gap-2 mb-4">
-              <div className="w-8 h-8 bg-gradient-to-br from-coral to-orange rounded-lg flex items-center justify-center">
-                <span className="text-white font-bold text-sm">TE</span>
-              </div>
-              <span className="font-bold text-lg text-white">Talkeasy</span>
+            <Link to="/" className="mb-8 block">
+              <img src="/images/logo.svg" alt="Talkeasy" className="h-32 w-full object-cover" />
             </Link>
             <p className="text-sm text-gray-400 mb-4">
               Helping anyone use their phone with just their voice. Offline-first. Open source. Berlin.
