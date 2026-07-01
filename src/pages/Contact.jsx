@@ -37,11 +37,11 @@ export default function Contact() {
     <>
       <Header />
       <main className="min-h-screen bg-background">
-        <section className="py-12 md:py-20 bg-gradient-to-b from-slate-50 to-white dark:from-slate-950 dark:to-background">
+        <section className="py-12 md:py-20 bg-cream">
           <div className="container">
             <div className="text-center">
-              <h1 className="text-4xl md:text-5xl font-bold tracking-tight mb-4">Get in Touch</h1>
-              <p className="text-xl text-muted-foreground">We'd love to hear from you. Send us a message!</p>
+              <h1 className="text-4xl md:text-5xl font-bold tracking-tight mb-4 text-teal">Get in Touch</h1>
+              <p className="text-xl text-teal">We'd love to hear from you. Send us a message!</p>
             </div>
           </div>
         </section>
@@ -117,22 +117,17 @@ export default function Contact() {
                   <div className="space-y-6">
                     <div>
                       <h4 className="font-medium text-sm text-muted-foreground mb-1">Email</h4>
-                      <p><a href="mailto:hello@voicelink.com" className="text-primary hover:underline">hello@voicelink.com</a></p>
+                      <p><a href="mailto:hello@talkeasy.app" className="text-coral hover:underline">hello@talkeasy.app</a></p>
                     </div>
 
                     <div>
-                      <h4 className="font-medium text-sm text-muted-foreground mb-1">Phone</h4>
-                      <p><a href="tel:+1234567890" className="text-primary hover:underline">+1 (234) 567-8900</a></p>
+                      <h4 className="font-medium text-sm text-muted-foreground mb-1">Location</h4>
+                      <p>Berlin, Germany</p>
                     </div>
 
                     <div>
-                      <h4 className="font-medium text-sm text-muted-foreground mb-1">Address</h4>
-                      <p>123 Tech Street<br />San Francisco, CA 94105<br />United States</p>
-                    </div>
-
-                    <div>
-                      <h4 className="font-medium text-sm text-muted-foreground mb-1">Hours</h4>
-                      <p className="text-sm">Monday - Friday: 9:00 AM - 6:00 PM (PST)<br />Saturday & Sunday: Closed</p>
+                      <h4 className="font-medium text-sm text-muted-foreground mb-1">About Talkeasy</h4>
+                      <p className="text-sm">We help anyone use their phone with just their voice. Offline-first. Open source. Berlin.</p>
                     </div>
                   </div>
                 </div>

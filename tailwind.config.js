@@ -48,6 +48,19 @@ export default {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
         },
+        coral: "#E2634B",
+        "coral-dark": "#c94e38",
+        orange: "#F2965C",
+        peach: "#F8DBAB",
+        cream: "#F5E6D0",
+        teal: {
+          DEFAULT: "#4E6B69",
+          dark: "#2a3f3e",
+        },
+      },
+      fontFamily: {
+        heading: ["'Poppins'", "system-ui", "sans-serif"],
+        body: ["'Nunito'", "system-ui", "sans-serif"],
       },
       borderRadius: {
         lg: "var(--radius)",

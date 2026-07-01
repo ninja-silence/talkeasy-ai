@@ -7,7 +7,7 @@ const features = [
   },
   {
     title: 'Offline Capability',
-    description: 'Use VoiceLink even when you don\'t have internet connectivity.',
+    description: 'Use Talkeasy even when you don\'t have internet connectivity.',
   },
   {
     title: 'Simple Interface',
@@ -20,7 +20,7 @@ export default function FeaturesSection() {
     <section className="features-section">
       <div className="container">
         <div className="features-content">
-          <h2>How VoiceLink Works</h2>
+          <h2>How Talkeasy Works</h2>
           {features.map((feature) => (
             <div key={feature.title} className="feature-card">
               <h3>{feature.title}</h3>
